@@ -25,7 +25,7 @@ class String
         sentences +=1
       end
       if word.include?("!")
-         += 1
+         sentences += 1
       end
     end
   return sentences
