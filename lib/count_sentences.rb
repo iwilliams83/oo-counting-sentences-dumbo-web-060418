@@ -17,7 +17,7 @@ class String
   def count_sentences
     string_array = self.split(" ")
     sentences = 0
-    arr.each do |word|
+    string_array.each do |word|
       if word.include?(".")
         sentences += 1
       end
