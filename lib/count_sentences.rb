@@ -30,6 +30,4 @@ class String
     end
   return sentences
   end
-
-  end
 end
